@@ -28,7 +28,12 @@ class ToDoList extends Component {
 
   handleDelete(index) {
     let newList = this.state.termlist.slice();
-    newList[index] = '';
+    //element is the value and index2 is the place in the array
+    newList = newList.filter((element, index2) => {
+      if (index == index2) {
+        return false;
+      } else return true;
+    });
     this.setState({
       termlist: newList
     });
