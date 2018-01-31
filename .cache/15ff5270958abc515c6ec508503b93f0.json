@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./index.js","dynamic":true}],"generated":{"html":"<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <title> My App </title>\n    </head>\n    <body>\n        <div id=\"root\"></div>\n        <script src=\"/dist/To_Do_App.js\"></script>\n    </body>\n</html>\n"},"hash":"5143baeaa22b6071bd2e0b9e958d0b2c","cacheData":{}}
