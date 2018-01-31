@@ -2,7 +2,7 @@
   "name": "To_Do_App",
   "version": "1.0.0",
   "description": "to do app with react",
-  "main": "index.js",
+  "main": "../src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel public/index.html"
